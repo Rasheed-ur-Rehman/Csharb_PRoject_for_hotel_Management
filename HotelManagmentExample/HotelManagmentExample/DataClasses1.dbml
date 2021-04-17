@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HotelManagmentExample" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-IJTJUHC\SQL2012;Initial Catalog=HotelManagmentExample;Integrated Security=True" SettingsObjectName="HotelManagmentExample.Properties.Settings" SettingsPropertyName="HotelManagmentExampleConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CustomerDetails" Member="CustomerDetails">
+    <Type Name="CustomerDetail">
+      <Column Name="Cus_id" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Cus_Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Cus_Address" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Cus_Phone" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Cus_dateofbirth" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Cus_Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BillHotel" Member="BillHotels">
+    <Type Name="BillHotel">
+      <Column Name="Guest_Id" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Guest_Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Cuntery" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Room_Type" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Room_No" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="No_Of_Person" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Children" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Staying_Days" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Total" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Other_Charges" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Sub_Total" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Date" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HotelManagmentExample" Class="DataClasses2DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-IJTJUHC\SQL2012;Initial Catalog=HotelManagmentExample;Integrated Security=True" SettingsObjectName="HotelManagmentExample.Properties.Settings" SettingsPropertyName="HotelManagmentExampleConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.StaffDetails" Member="StaffDetails">
+    <Type Name="StaffDetail">
+      <Column Name="Personal_Details" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Fimaly" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Educational" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Eperience" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Promotion_Details" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Feedback" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RegistrationDetails" Member="RegistrationDetails">
+    <Type Name="RegistrationDetail">
+      <Column Name="First_Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Last_Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Contact" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email_Address" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Cuntery" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Job_Details" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
